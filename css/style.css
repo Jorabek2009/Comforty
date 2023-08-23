@@ -6,6 +6,7 @@
 
 body {
   max-width: 1920px;
+<<<<<<< HEAD
 }
 
 .cont4 {
@@ -197,4 +198,180 @@ body {
 }
 .cont5 .cont5-wrap .box .bottom .buy-icon img {
   padding: 10px;
+=======
+  background-color: #fff;
+  font-family: "Inter", sans-serif;
+}
+
+.jorabek header nav {
+  background-color: rgb(154, 156, 170);
+  display: flex;
+}
+.jorabek header nav .logo {
+  margin: 25px;
+  margin-left: 300px;
+  margin-right: 254px;
+}
+.jorabek header nav .search {
+  width: 413px;
+  height: 44px;
+  border-radius: 5px;
+  background-color: #fff;
+  display: flex;
+  margin-top: 24px;
+}
+.jorabek header nav .search p {
+  margin-top: 12px;
+  margin-left: 10px;
+}
+.jorabek header nav .search .sear {
+  width: 30px;
+  height: 30px;
+  margin-top: 7px;
+  margin-left: 250px;
+}
+.jorabek header nav .search .bottom {
+  display: flex;
+}
+.jorabek header article {
+  display: flex;
+  margin-top: 24px;
+}
+.jorabek header article .card {
+  width: 100px;
+  height: 44px;
+  margin-left: 254px;
+}
+.jorabek header article div {
+  width: 44px;
+  height: 44px;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 10px;
+  margin-left: 10px;
+}
+.jorabek header section {
+  margin-top: 14px;
+  display: flex;
+}
+.jorabek header section .left {
+  width: 547px;
+  height: 47px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 300px;
+}
+.jorabek header section .left p {
+  font-size: 14px;
+  margin-top: 16px;
+}
+.jorabek header section .left button {
+  width: 176px;
+  height: 47px;
+  background-color: #fff;
+  padding-left: 10px;
+  border-radius: 5px;
+}
+.jorabek header section .left button img {
+  margin-left: -30px;
+  position: absolute;
+}
+.jorabek header section .left .hom {
+  color: rgb(0, 117, 128);
+}
+.jorabek header section .right {
+  display: flex;
+  margin-top: 15px;
+  margin-left: 580px;
+}
+.jorabek header main .bg {
+  position: relative;
+  margin-left: 90px;
+}
+.jorabek header main aside {
+  position: absolute;
+  width: 631px;
+  margin-left: 300px;
+  margin-top: -600px;
+}
+.jorabek header main aside p {
+  font-size: 14px;
+  margin-left: 5px;
+}
+.jorabek header main aside b {
+  font-size: 68px;
+}
+.jorabek header main aside button {
+  background-color: rgb(30, 30, 128);
+  border: 0;
+  border-radius: 5px;
+  width: 171px;
+  height: 52px;
+  font-size: 16px;
+  padding: 14px 24px;
+  color: white;
+  display: flex;
+  margin-top: 15px;
+}
+.jorabek header main aside button p {
+  margin-top: 5px;
+  margin-right: 20px;
+}
+.jorabek header .fea {
+  margin-left: 210px;
+  margin-top: -160px;
+  position: absolute;
+}
+.jorabek header .company {
+  margin-top: 120px;
+  margin-left: 310px;
+}
+.jorabek header footer {
+  width: 1321px;
+  margin-left: 310px;
+}
+.jorabek header footer nav {
+  font-size: 32px;
+  background-color: #fff;
+  justify-content: space-between;
+}
+.jorabek header footer .table {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+}
+.jorabek header footer .table .heart {
+  width: 44px;
+  height: 44px;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 10px;
+  margin-left: 240px;
+  margin-top: -290px;
+  position: absolute;
+}
+.jorabek header footer .table .ikki p {
+  color: rgb(24, 116, 116);
+}
+.jorabek header footer .table div .past {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.jorabek header footer .table div .past p {
+  margin-bottom: 5px;
+}
+.jorabek header footer .table div .past .right {
+  width: 34px;
+  height: 34px;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #e0dbdb;
+}
+.jorabek header footer .table div .past .rit {
+  background-color: #029FAE;
+}
+.jorabek header footer .table div b {
+  margin-top: 100px;
+>>>>>>> 82f40dcf9e20ea0aa211535aee61b8e1bd837629
 }/*# sourceMappingURL=style.css.map */
