@@ -6,4 +6,195 @@
 
 body {
   max-width: 1920px;
+}
+
+.cont4 {
+  margin-top: 84, 5px;
+}
+.cont4 .heading {
+  color: var(--gray-scales-black, #272343);
+  /* Section Heading */
+  font-family: Inter, sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 110%; /* 35.2px */
+  text-transform: capitalize;
+  margin-left: 300px;
+}
+.cont4 .cont4-wrap {
+  display: flex;
+}
+.cont4 .cont4-wrap .img {
+  margin-right: 24px;
+  position: relative;
+}
+.cont4 .cont4-wrap .img span {
+  margin-left: 420px;
+}
+.cont4 .cont4-wrap .img .txt {
+  position: relative;
+  margin-left: -418px;
+  z-index: 3;
+  position: absolute;
+  bottom: 0px;
+  display: inline-flex;
+  padding: 20px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  border-radius: 0px 0px 10px 10px;
+  background: rgba(0, 0, 0, 0.7);
+}
+.cont4 .cont4-wrap .img .txt h4 {
+  color: var(--gray-scales-white, #FFF);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 110%; /* 22px */
+  text-transform: capitalize;
+}
+.cont4 .cont4-wrap .img .txt p {
+  width: 376px;
+  color: var(--gray-scales-white, #FFF);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 110%; /* 15.4px */
+  text-transform: capitalize;
+}
+
+.cont5 {
+  padding: 80px 300px;
+}
+.cont5 .heading {
+  color: var(--gray-scales-black, #272343);
+  font-family: Inter, sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 110%; /* 35.2px */
+  text-transform: capitalize;
+  text-align: center;
+}
+.cont5 .cont5-nav {
+  display: flex;
+  align-items: center;
+  margin-left: 421px;
+  margin-top: 24px;
+}
+.cont5 .cont5-nav span p {
+  color: var(--gray-scales-black, #272343);
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 110%; /* 17.6px */
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+}
+.cont5 .cont5-nav .line {
+  display: flex;
+  width: 20px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: var(--gray-scales-white, #FFF);
+  box-shadow: 0px 2px 0px 0px #038053;
+}
+.cont5 .cont5-nav p {
+  color: var(--gray-scales-gray, #9A9CAA);
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 110%; /* 17.6px */
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  margin-right: 24px;
+}
+.cont5 .cont5-wrap {
+  margin-top: 48px;
+  display: flex;
+}
+.cont5 .cont5-wrap .box {
+  margin-right: 24px;
+  position: relative;
+}
+.cont5 .cont5-wrap .box .img {
+  position: relative;
+}
+.cont5 .cont5-wrap .box .img img {
+  position: relative;
+}
+.cont5 .cont5-wrap .box .img .new {
+  position: absolute;
+  display: inline-flex;
+  padding: 6px 10px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 4px;
+  background: var(--status-success, #01AD5A);
+  color: var(--gray-scales-white, #FFF);
+  font-family: Inter;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 110%; /* 14.3px */
+  text-transform: capitalize;
+  top: 20px;
+  left: 20px;
+}
+.cont5 .cont5-wrap .box .img .icon-box {
+  width: 44px;
+  height: 44px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.8);
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+.cont5 .cont5-wrap .box .img .icon-box .icon {
+  position: relative;
+  padding: 11px;
+}
+.cont5 .cont5-wrap .box .bottom {
+  margin-top: 14px;
+  display: flex;
+}
+.cont5 .cont5-wrap .box .bottom .description h4 {
+  width: 256px;
+  color: var(--accents-dark-accents, #007580);
+  /* Product Name */
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%; /* 20.8px */
+  text-transform: capitalize;
+}
+.cont5 .cont5-wrap .box .bottom .description h3 {
+  color: var(--gray-scales-black, #272343);
+  /* Product Price */
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 110%; /* 19.8px */
+  text-transform: capitalize;
+}
+.cont5 .cont5-wrap .box .bottom .buy-icon {
+  width: 44px;
+  height: 44px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: var(--accents-accents, #029FAE);
+}
+.cont5 .cont5-wrap .box .bottom .buy-icon img {
+  padding: 10px;
 }/*# sourceMappingURL=style.css.map */
